@@ -4,34 +4,20 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Quantos games foram vendidos hoje? ");
-        int games = scanner.nextInt();
+        System.out.print("Qual o nome da equipe de futebol? ");
+        String equipe = scanner.next();
 
-        System.out.print("Quantas calculadoras foram vendidas hoje? ");
-        int calculadoras = scanner.nextInt();
+        System.out.print("Quantas derrotas a equipe obteve? ");
+        int derrotas = scanner.nextInt();
+        System.out.print("Quantos empates a equipe obteve? ");
+        int empates = scanner.nextInt();
+        System.out.print("Quantas vitórias a equipe obteve? ");
+        int vitorias = scanner.nextInt();
 
-        System.out.print("Quantas canetas foram vendidas hoje? ");
-        int canetas = scanner.nextInt();
+        int pontosGanhos = vitorias * 3 + empates;
+        int pontosPerdidos = derrotas * 3;
 
-        System.out.print("Qual o preço de cada game? ");
-        double precoGame = scanner.nextDouble();
-
-        System.out.print("Qual o preço de cada calculadora? ");
-        double precoCalculadora = scanner.nextDouble();
-
-        System.out.print("Qual o preço de cada caneta? ");
-        double precoCaneta = scanner.nextDouble();
-
-        double totalGames = games * precoGame;
-        double totalCalculadoras = calculadoras * precoCalculadora;
-        double totalCanetas = canetas * precoCaneta;
-        double totalFaturamento = totalGames + totalCalculadoras + totalCanetas;
-
-        System.out.println("O total do faturamento com games foi de R$" + totalGames);
-        System.out.println("O total do faturamento com calculadoras foi de R$" + totalCalculadoras);
-        System.out.println("O total do faturamento com canetas foi de R$" + totalCanetas);
-        System.out.println("O total do faturamento foi de R$" + totalFaturamento);
- 
+        System.out.println("A equipe " + equipe + " ganhou " + pontosGanhos + " pontos e perdeu " + pontosPerdidos + " pontos.");
  
     }
 }
