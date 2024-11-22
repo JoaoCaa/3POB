@@ -9,13 +9,8 @@ cada trabalho está em um branch diferente
 ## Exercicio03.2
 ## Exercicio03.3
 ## Exercicio03.4
-## Exercicio03.5
-## Exercicio03.6
-## Exercicio03.7
-## Exercicio03.8
-## Exercicio03.9
-## Exercicio03.10
-## Exercicio03.11
+## Exercicio04
+## Exercicio03.(5,6,7,8,9,10 e 11)
 ## AV2-ExercicioComArrayList
 ## AV2-ExercicioArquivo
 ## AV2-ExercicioHeranca
