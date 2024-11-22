@@ -6,3 +6,4 @@ cada trabalho está em um branch diferente
 ## Exercicio01.04
 ## Exercicio01.05
 ## AV2-ExercicioComArrayList
+## AV2-ExercicioArquivo
