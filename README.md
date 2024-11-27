@@ -1,6 +1,4 @@
 ## Trabalos 3POB
-cada trabalho está em um branch diferente
-
 ## OS TRAMABALHOS SÃO SEPRADOS POR BRANCH
 - Exercicio01.1
 - Exercicio01.2
