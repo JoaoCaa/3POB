@@ -14,3 +14,5 @@
 - AV2-ExercicioComArrayList
 - AV2-ExercicioArquivo
 - AV2-ExercicioHeranca
+- Projeto-AV2
+
